@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18E82B231CFED80A007BF6CF /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E82B221CFED80A007BF6CF /* NSDate+TimeAgo.m */; };
 		5357883A1CD03AB200F72193 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838CF4301BCD9CB900562CA9 /* NSDate+Extension.swift */; };
 		5357883B1CD03ADE00F72193 /* NSDateTimeAgo.h in Headers */ = {isa = PBXBuildFile; fileRef = 833CD37B1BCD9BD90085A751 /* NSDateTimeAgo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5357883C1CD03AEA00F72193 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 838CF4321BCD9CFF00562CA9 /* NSDateTimeAgo.bundle */; };
@@ -29,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E82B221CFED80A007BF6CF /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = SOURCE_ROOT; };
 		535788321CD03AAB00F72193 /* NSDateTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDateTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833CD3781BCD9BD90085A751 /* NSDateTimeAgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSDateTimeAgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		833CD37B1BCD9BD90085A751 /* NSDateTimeAgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateTimeAgo.h; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				838CF4301BCD9CB900562CA9 /* NSDate+Extension.swift */,
 				838CF4321BCD9CFF00562CA9 /* NSDateTimeAgo.bundle */,
 				833CD37B1BCD9BD90085A751 /* NSDateTimeAgo.h */,
-				18E82B221CFED80A007BF6CF /* NSDate+TimeAgo.m */,
 				833CD37D1BCD9BD90085A751 /* Info.plist */,
 			);
 			path = Framework;
@@ -263,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				838CF4311BCD9CB900562CA9 /* NSDate+Extension.swift in Sources */,
-				18E82B231CFED80A007BF6CF /* NSDate+TimeAgo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
